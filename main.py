@@ -1,4 +1,3 @@
 if __name__ == "__main__":
-    print(chr(98))
-    print("=======")
-    print(ord('c'))
+    for ascii in range(255):
+        print(f"{ascii}".rjust(3), " : ", f"{(chr(ascii))}")
